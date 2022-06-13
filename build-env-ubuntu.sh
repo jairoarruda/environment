@@ -32,5 +32,5 @@ echo "copying nvim config file to the right directory"
 cp /assets/init.vim ~/.config/nvim/init.vim
 
 echo "installing Plug on nvim"
-curl -fLo ~/.config/nvim/site/autoload/plug.vim --create-dirs \
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
