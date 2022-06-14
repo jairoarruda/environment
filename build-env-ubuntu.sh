@@ -1,13 +1,13 @@
 echo "setting up development environment"
 
 echo "installing build tools"
-sudo apt-get install build-essential
-sudo apt-get install pkg-config
+sudo apt-get update
+sudo apt-get install build-essential git curl vim dirmngr gpg gawk \
+make libssl-dev zlib1g-dev wget \
+libbz2-dev libreadline-dev libsqlite3-dev llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev \
+pkg-config
 echo "build tools installed"
-
-echo "installing wget"
-sudo apt-get install wget
-echo "wget installed"
 
 echo "installing zsh"
 sudo apt-get install zsh
